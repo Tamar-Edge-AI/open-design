@@ -9,7 +9,7 @@ permissions:
 jobs:
   placeholder:
     name: Release beta placeholder
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Linux, X64, tapnow-gcp]
     steps:
       - name: Note pending release-beta implementation
         run: |
